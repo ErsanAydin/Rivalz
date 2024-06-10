@@ -300,12 +300,11 @@ chmod +x rClient-latest.AppImage
 
 > Sonra başlatıyoruz node'u ve hayırlı olsun.
 
->  rClient uygulamasında sol üstte view sekmesi var oradan reload'a basıp, node'u tekrar çalıştırın
 
 <img width="1251" alt="Ekran Resmi 2024-05-25 00 38 38" src="https://github.com/ruesandora/Rivalz/assets/101149671/cdf68d07-c897-4e5a-93d8-b34e2c4a82ee">
 
 #
 
-> Akabinde rivalz'da LOYALTY NFTs kısmını yapmayı unutmayın mintlein 10 NFT'yi.
+> Akabinde rivalz'da LOYALTY NFTs kısmını yapmayı unutmayın mintlein 10 NFT'yi. (Şuan aktif değil ilerleyen zamanlarda kontrol edin)
 
 > Rivalz hakkında link paylaşmak isterseniz [burayı](https://t.me/ruesshare/21528) kullanabilirsiniz.
