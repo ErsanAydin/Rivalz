@@ -98,6 +98,10 @@ chmod +x setup_rivalz.sh
 ```ruby
 ./setup_rivalz.sh
 ```
+Port Açalım
+```ruby
+ufw allow 3389
+```
 
 Tüm kurulumlar yapıldıktan sonra ubuntuda kurulan rclient'lerin dashboard'da görünmesini engelleyen hatayı düzeltelim. ```setup-rivalz``` klasöründen devam ediyoruz.
 
