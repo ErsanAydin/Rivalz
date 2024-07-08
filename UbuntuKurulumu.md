@@ -30,7 +30,6 @@ nano setup_rivalz.sh
 ```
 Açılan dosyaya aşağıdaki kod bloğunun en üstünde değişiklik yaparak yapıştıralım. Yeni bir kullanıcı adı ve şifre oluşturacağız. Komutların üzerinde ne işe yaradığı yazıyor. Şifre ve kullanıcı adı için şu karakterleri kullanmayın: ; | & $ ` \ ' “ < > ( ) * ? [ ] { } # ~ % !
 
-Şifre ve kullanıcı adı oluştururlen tırnak işaretlerini kaldırın
 ```ruby
 #!/bin/bash
 
