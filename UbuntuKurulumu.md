@@ -81,7 +81,12 @@ sudo mv rClient-latest.AppImage /home/$USER/Documents/rClient-latest.AppImage
 # rClient'in sahibini belirtilen kullanıcıyla değiştirir
 sudo chown $USER:$USER /home/$USER/Documents/rClient-latest.AppImage
 
-echo "Kurulum tamamlandi. GNOME Desktop, xrdp ve Rivalz.ai rClient kuruldu. Lutfen VPSFix.sh dosyasini calistiriniz."
+#Chorme Kurulumu
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb 
+sudo apt-get install -f 
+
+echo "Kurulum tamamlandi. GNOME Desktop, xrdp ve Rivalz.ai rClient Chorme kuruldu. Lutfen VPSFix.sh dosyasini calistiriniz."
 
 ```
 
