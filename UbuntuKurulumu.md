@@ -83,8 +83,7 @@ sudo chown $USER:$USER /home/$USER/Documents/rClient-latest.AppImage
 
 #Chorme Kurulumu
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg -i google-chrome-stable_current_amd64.deb 
-sudo apt-get install -f 
+sudo apt install ./google-chrome-stable_current_amd64.deb 
 
 echo "Kurulum tamamlandi. GNOME Desktop, xrdp ve Rivalz.ai rClient Chorme kuruldu. Lutfen VPSFix.sh dosyasini calistiriniz."
 
