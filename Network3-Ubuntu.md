@@ -39,6 +39,7 @@
       sudo apt-get install net-tools
       /sbin/ifconfig eth0 up
      ```
+   - wg0 hatası alanlar kurulumu baştan yapsın o zaman hata kalkıyor 
 ### Dashboard'a Erişme
 
 
@@ -51,6 +52,12 @@
      https://account.network3.ai/main?o=xx.xx.xx.xx:8080
      ```
    - `xx.xx.xx.xx` kısmını Ubuntu makinenizin gerçek IP adresiyle değiştirin.
+
+Sitede "Current Node" sağ tarafında + butona basınca bizden private key isteyecek şimdi onu alacağız. Terminale dönüyoruz.
+ ```bash
+sudo bash manager.sh key
+ ```
+Private keyimizi aldık tarayıcıya dönüp yapıştıralım. Kurulumu tamamlıyoruz.
 
 Bu URL, diğer makineden Ubuntu node'unun dashboard'ına erişim sağlar.
 
