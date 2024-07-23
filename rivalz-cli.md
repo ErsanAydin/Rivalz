@@ -16,6 +16,7 @@ nvm use 20.0.0
 
 Öncelikle kurulum yapacağımız sunucuda screen açıyoruz
 ```
+sudo apt install screen
 screen -S rivalz
 ```
 
