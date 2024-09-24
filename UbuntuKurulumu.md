@@ -26,8 +26,8 @@ mkdir ubuntu-rivalz
 > Klasöre girelim ve aşağıdaki komutu çalıştıralım.
 
 ```ruby
-cd ubuntu-rivalz
-nano setup_rivalz.sh
+cd ubuntu-desktop
+nano setup_ubuntudesktop.sh
 ```
 Açılan dosyaya aşağıdaki kod bloğunun en üstünde değişiklik yaparak yapıştıralım. Yeni bir kullanıcı adı ve şifre oluşturacağız. Komutların üzerinde ne işe yaradığı yazıyor. Şifre ve kullanıcı adı için şu karakterleri kullanmayın: ; | & $ ` \ ' “ < > ( ) * ? [ ] { } # ~ % !
 
@@ -95,13 +95,13 @@ echo "Kurulum tamamlandi. GNOME Desktop, xrdp ve Rivalz.ai rClient Chorme kuruld
 Dosyayı kullanılabilir hale getirelim.
 
 ```ruby
-chmod +x setup_rivalz.sh
+chmod +x setup_ubuntudesktop.sh
 ```
 
 Şimdi scripti çalıştıralım.
 
 ```ruby
-./setup_rivalz.sh
+./setup_ubuntudesktop.sh
 ```
 Port Açalım
 ```ruby
