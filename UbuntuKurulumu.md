@@ -64,23 +64,8 @@ sudo systemctl restart xrdp
 # Başlangıçta xrdp'yi etkinleştirir
 sudo systemctl enable xrdp
 
-# Rivalz.ai rClient için gereklilikleri kurar
-sudo apt install -y wget
-
-# Rivalz.ai rClient AppImage'ı indirir
-wget https://api.rivalz.ai/fragmentz/clients/rClient-latest.AppImage -O rClient-latest.AppImage
-
-# AppImage'ı çalıştırılabilir hale getirir
-chmod +x rClient-latest.AppImage
-
 # Eğer mevcut değilse Belgeler dizinini oluşturur
 sudo -u $USER mkdir -p /home/$USER/Documents
-
-# AppImage'ı kullanıcının Belgeler dizinine taşır
-sudo mv rClient-latest.AppImage /home/$USER/Documents/rClient-latest.AppImage
-
-# rClient'in sahibini belirtilen kullanıcıyla değiştirir
-sudo chown $USER:$USER /home/$USER/Documents/rClient-latest.AppImage
 
 #Chorme Kurulumu
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
