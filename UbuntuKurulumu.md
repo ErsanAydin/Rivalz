@@ -20,7 +20,7 @@
 > Öncelikle root klasöründe yeni bir klasör oluşturalım:
 
 ```ruby
-mkdir ubuntu-rivalz
+mkdir ubuntu-desktop
 ```
 
 > Klasöre girelim ve aşağıdaki komutu çalıştıralım.
